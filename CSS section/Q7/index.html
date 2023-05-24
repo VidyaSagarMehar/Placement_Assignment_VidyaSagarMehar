@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .container {
+            height: 400px;
+            position: relative;
+            border: 1px solid black;
+            overflow: auto;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            border: 1px solid red;
+            background-color: lightgray;
+            margin-bottom: 20px;
+        }
+
+        .relative {
+            position: relative;
+            top: 20px;
+            left: 50px;
+        }
+
+        .absolute {
+            position: absolute;
+            top: 100px;
+            left: 200px;
+        }
+
+        .sticky {
+            position: sticky;
+            top: 50px;
+            background-color: yellow;
+        }
+
+        .fixed {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 100px;
+            background-color: cyan;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box relative">Relative</div>
+        <div class="box absolute">Absolute</div>
+        <div class="box sticky">Sticky</div>
+        <div class="box fixed">Fixed</div>
+        <div style="height: 800px;">Scroll down to see the sticky and fixed elements in action.</div>
+    </div>
+</body>
+
+</html>

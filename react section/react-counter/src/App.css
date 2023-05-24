@@ -1,0 +1,69 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.App {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	min-height: 100vh;
+	color: rgba(240, 248, 255, 0.785);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.79), rgba(0, 0, 0, 0.2)),
+		url('./pexels-maverick-f-10820363.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+button {
+	color: #fff;
+	padding: 5px 25px;
+	margin: 10px;
+	font-size: 20px;
+	text-transform: uppercase;
+	width: 300px;
+	border-radius: 15px;
+	background-color: #00ffc870;
+	cursor: pointer;
+}
+
+button:active {
+	transform: translateY(4px);
+}

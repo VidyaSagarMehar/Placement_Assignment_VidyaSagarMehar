@@ -1,0 +1,77 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 1rem;
+	width: 90vw;
+	height: 15vh;
+	@media (max-width: 450px) {
+		height: 10vh;
+	}
+}
+.logo {
+	min-width: 20%;
+	height: 100%;
+	background-color: rgba(10, 128, 213, 0.798);
+}
+.nav {
+	min-width: 79%;
+	height: 100%;
+	background-color: gray;
+}
+.hero {
+	margin-top: 1.5rem;
+	width: 90vw;
+	height: 60vh;
+	background-color: rgba(128, 128, 128, 0.724);
+	@media (max-width: 450px) {
+		height: 30vh;
+	}
+}
+
+.cards {
+	margin-top: 1rem;
+	width: 90vw;
+	height: 20vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	@media (max-width: 450px) {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+.card {
+	min-width: 28vw;
+	height: 100%;
+	background-color: rgba(0, 221, 255, 0.671);
+	@media (max-width: 450px) {
+		min-width: 90vw;
+		min-height: 60%;
+		margin-top: 1rem;
+	}
+}
+
+footer {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	width: 90vw;
+	height: 20vh;
+	background-color: rgba(128, 128, 128, 0.472);
+	@media (max-width: 450px) {
+		margin-top: 13rem;
+	}
+}

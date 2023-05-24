@@ -1,0 +1,93 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+.container {
+	margin: 2% 2% 0% 2%;
+	/* border: 2px solid red; */
+	font-size: 1.5rem;
+}
+.number ul {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+ul li {
+	list-style: none;
+}
+/* block color section */
+.s-block {
+	background-color: #ff9999;
+}
+.p-block {
+	background-color: #fdff8c;
+}
+.d-block {
+	background-color: #99ccff;
+}
+.f-block {
+	background-color: #9bff99;
+}
+/* Element container section */
+.element-container {
+	position: absolute;
+	top: 15%;
+	left: 10%;
+	width: 89vw;
+	height: 60vh;
+	/* border: 2px solid yellowgreen; */
+}
+/* Period section */
+.period ul li {
+	width: 50px;
+	height: 55px;
+	text-align: center;
+	border: 1px solid black;
+	display: flex;
+	flex-direction: column;
+}
+span.row-left,
+span.row-right {
+	/* border: 2px solid red; */
+	display: flex;
+}
+span.row-left {
+	justify-content: space-between;
+	width: 9.5%;
+}
+span.row-right {
+	justify-content: space-between;
+	width: 31.7%;
+}
+.column ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	/* border: 2px solid rebeccapurple; */
+	width: 6%;
+	height: 65vh;
+}
+.period ul {
+	position: relative;
+	/* border: 2px solid brown; */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.period ul {
+	margin-bottom: 8px;
+}
+p {
+	display: flex;
+	flex-direction: column;
+}
+
+.period-f {
+	margin-left: 5.8em;
+	width: 65vw;
+	/* border: 2px solid yellow; */
+}
